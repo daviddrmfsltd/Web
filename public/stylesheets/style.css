@@ -1,0 +1,97 @@
+/*會用到的CSS樣式都放在這統一管理*/
+/*紅字是HTML標籤 有#是有定義ID的box 有.是有定義ID的Class*/
+a					{ outline: 0; color: #87EB88; text-decoration: none;  width: 180px;
+					  }
+			
+#foot 				{ float: right;}
+/*a:hover 			{ width: 180; }*/
+/*p a:hover 		{ color: #333; }*/
+a:active 			{ outline: none; position: relative; top: 2px; }
+
+.clearfix 			{ clear: both; }
+
+nav 				{ width: 100%;  z-index: 1; right: 10%; }
+nav a 				{ display: inline;  font-size: 22px; float: right; padding-right: 10px; opacity: 0.8; text-align: center;
+					transition: background-color 0.2s linear; }
+nav a:visited 		{ color: #CCC; }
+nav a:hover			{ text-decoration: none; background: black; color: gold;}
+nav a:active		{ position: relative;  }
+
+
+body 				{ font-family: 'Microsoft JhengHei'; font-size: 16px;}				 
+#page1	 			{ margin: 0px auto; max-width: 980px; width: 90%; height: 100%; padding: 10px 0; }
+header 				{ padding: 0px; }
+
+h1 					{ color: #178918; font-size: 90px; font-family: 'Microsoft JhengHei', serif; line-height: 75px; padding: 10px; letter-spacing: 5px;} 
+h1 a:hover 			{ text-decoration: none; color: gold; }
+h2 					{ color:gold; font-family: 'Microsoft JhengHei'; font-size: 20px; padding: 15px; letter-spacing: 5px; }
+h2 a:hover			{ color: gold;}
+h3 					{ font-family: 'Microsoft JhengHei', ; font-size: 30px; }
+
+#name				{ font-family: 'Microsoft JhengHei', ; font-size: 20px; }
+h4 					{ font-family: 'Microsoft JhengHei', serif; padding: 3px; margin: 5px 0 0 0;}
+h4 a 				{ text-decoration: underline; }
+h4 a:hover 			{  }
+h5					{ font-family: 'Microsoft JhengHei', ; font-size: 20px; }
+h6 					{ display: inline; color: #178918; font-size: 90px; font-family: 'Microsoft JhengHei', serif; line-height: 75px; padding: 10px; letter-spacing: 5px;} 
+
+
+#bg1       			{ position:absolute; z-index:-1; height: 100%; width: 100%;}	
+#bg2       			{ position:absolute; z-index:-1; top: 100%; height: 100%; width: 100%;}
+#bg3       			{ position:absolute; z-index:-1; top: 200%; height: 100%; width: 100%;}	
+#bg4       			{ position:absolute; z-index:-1; top: 300%; height: 100%; width: 100%;}
+#bg5       			{ position:absolute; z-index:-1; top: 400%; height: 100%; width: 100%;}
+
+#space				{ padding-top: 40%; }
+
+menu 				{ padding: 0; width: 100%; }
+menu #first 		{ top: -20px;padding-right: 2%; padding-left: 2%; color: #CCC; display: block ; float: left; font-size: 25px; width: 20%; height:280px; text-align: center; 
+					transition: background-color 0.3s linear; }
+menu #first:visited { color: #CCC; }
+menu #first:hover	{ text-decoration: none; background: rgb(230, 230, 230); opacity:0.6; }
+menu #first:active	{ position: relative;  }
+
+
+.page2				{ position:absolute; top: 120%; height: 50%; width: 45%; left: 7%; }
+#box2				{ height: 100%; width: 100%; z-index: -1;}
+#content2			{ color: #CCC; opacity: 0.9; }
+#content2 p			{ font-size: 22px;}
+#Top 				{ font-size: 20px; text-align: right; display: block; right: 5%; margin-left: 540px; position: fixed; top: 80%; z-index: 999;}
+
+.page3				{ position:absolute; top: 210%; height: 50%; width: 45%; right: 7%; }
+#box3				{ height: 100%; width: 100%; z-index: -1;}
+#content3			{ color: #CCC; opacity: 0.9; }
+#content3 p			{ font-size: 22px;}
+
+.page4				{ position:absolute; top: 320%; height: 50%; width: 45%;  }
+#box4				{ height: 100%; width: 100%; z-index: -1;}
+#content4			{ color: #CCC; opacity: 0.9; }
+#content4 p			{ font-size: 22px;}
+
+
+.page5				{ position:absolute; top: 430%; height: 50%; width: 45%; right: 300px;  }
+#box5				{ height: 100%; width: 100%; z-index: -1;}
+#content5			{ color: #CCC; opacity: 0.9; }
+#content5 p			{ font-size: 22px;}
+
+/*Travel Page*/
+
+
+
+
+
+p 					{ padding: 0 5px 0 5px; font-size: 22px; }
+#foot 				{ float: right;}
+ul 					{ list-style: none; }
+ul li 				{ margin: 0 5px; }
+footer 				{ padding: 5px; }
+pre					{ overflow: scroll; font-size: 10px; }
+iframe 				{ position: absolute; width: 900px; height: 500px;}
+
+
+
+/*教學
+1.CSS轉場:https://developer.mozilla.org/zh-TW/docs/CSS_%E8%BD%89%E5%A0%B4
+2.CSS字型:http://blog.xuite.net/jeanson61/xuite/28415261-%5BCSS%E6%A8%A3%E5%BC%8F%E8%AA%9E%E6%B3%95%5D%E5%AD%97%E9%AB%94%E7%9A%84%E8%A8%AD%E5%AE%9A%5B%E7%89%B9%E5%88%A5%E6%98%AF%E4%B8%AD%E6%96%87%E5%AD%97%E5%9E%8B%5D
+3.reset.css document:http://meyerweb.com/eric/tools/css/reset/
+4.素材http://tympanus.net/codrops/

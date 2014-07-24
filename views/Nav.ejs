@@ -1,0 +1,39 @@
+<!--宣告格式 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+<!--匯入會用到的.css檔 -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	
+	<!--確保IE能用[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+</head>
+<!--動態網頁的導覽列 -->
+<body>
+	<div id="wrapper">
+		
+		<header>
+			<nav>
+
+			<% if(locals.user){ %>
+				<a href="/Travel">關於我們</a>
+
+				<a href="/">下載App</a>
+			<% } 
+			else { %>
+				<a href="/Travel">關於我們</a>
+
+				<a href="/">下載App</a>
+			<% } %>
+
+			</nav>	
+		</header>
+		</div>
+
+
+</body>
+</html>
